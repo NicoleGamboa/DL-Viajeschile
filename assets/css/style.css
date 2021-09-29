@@ -1,5 +1,4 @@
 .iconos {
-    background-color: cornflowerblue;
     padding: 8px;
     color: white;   
 }
@@ -8,3 +7,17 @@
     font-size: 50px;
     padding: 40px;
 }
+
+.navbar-wrapper {
+    position:relative;
+}
+
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: transparent !important;
+    width:100%;
+    position: fixed;
+}
+
