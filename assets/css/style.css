@@ -2,6 +2,9 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 .nav-img{
     height: 30px;
