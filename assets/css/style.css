@@ -1,7 +1,9 @@
+/* hacer el scroll suave */
 html{
     scroll-behavior: smooth;
 }
 
+/* Cargar fuentes personalizadas */
 body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: black;
@@ -17,15 +19,11 @@ body {
     color: white;   
 }
 
-.iconos-footer {
-    font-size: 50px;
-    padding: 40px;
-}
-
 .navbar-wrapper {
     position:relative;
 }
 
+/* Hacer navbar transparente y fijo al top */ 
 .navbar {
     position:absolute;
     top:0;
@@ -34,5 +32,3 @@ body {
     width:100%;
     position: fixed;
 }
-
-
